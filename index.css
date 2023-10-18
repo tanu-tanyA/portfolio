@@ -180,6 +180,13 @@ footer .text-center {
     padding: 12px 0;
 
 }
+#git{
+    background-color: #0e0e1a;
+    color: white;
+}
+#git:hover{
+    font-size: medium;
+}
 
 .about_me {
     display: flex;
