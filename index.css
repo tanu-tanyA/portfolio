@@ -240,3 +240,10 @@ footer .text-center {
     padding-left: 100px;
     color: rgb(66, 64, 64);
 }
+.bi {
+    cursor: pointer;
+    padding-left: 2px;
+}
+.bi:hover{
+    color: purple;
+}
