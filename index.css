@@ -183,9 +183,17 @@ footer .text-center {
 #git{
     background-color: #0e0e1a;
     color: white;
+    padding: 2px;
 }
 #git:hover{
     font-size: medium;
+}
+.bi {
+    cursor: pointer;
+    padding-left: 2px;
+}
+.bi:hover{
+    color: purple;
 }
 
 .about_me {
@@ -212,6 +220,40 @@ footer .text-center {
     font-weight: 200;
     color: gray;
 }
+.project{
+        font-size: medium;
+        font-weight: bold;
+        color: antiquewhite;
+        font-family: 'Times New Roman', Times, serif;
+        align-items: center;
+        margin: 100px;
+        padding-left: 50px;
+        margin-bottom: 200px;
+    
+    }
+ .project h3{
+    text-decoration: underline;
+    font-size: 40px;
+
+ }
+ #project{
+     padding-left: 200px;
+     color:gray;
+
+ }
+ #project:hover{
+    color: plum;
+ }
+ #desc{
+    font-size: medium;
+    font-weight: 200;
+    color: blueviolet;
+    text-decoration: underline;
+ }
+ .project p{
+    color:rgb(59, 52, 52);
+ }
+
 
 .skill {
     font-size: larger;
@@ -240,10 +282,15 @@ footer .text-center {
     padding-left: 100px;
     color: rgb(66, 64, 64);
 }
-.bi {
-    cursor: pointer;
-    padding-left: 2px;
+#social h3{
+    color: azure;
+    text-align: justify;
+    margin-left: 30px;
+    padding-bottom: 10px;
+
 }
-.bi:hover{
-    color: purple;
+#social ul{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    list-style: none;
 }
